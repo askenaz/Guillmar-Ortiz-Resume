@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Guillmar Ortiz | CV</title>
+    <meta
+      name="description"
+      content="CV bilingüe de Guillmar Ortiz, arquitecto de IA Generativa, arquitecto de software y arquitecto empresarial."
+    >
+    <meta name="theme-color" content="#3f3f42">
+    <meta property="og:title" content="Guillmar Ortiz | CV">
+    <meta
+      property="og:description"
+      content="Arquitectura de IA Generativa, arquitectura de software, estrategia de plataformas de IA, RAG, LLMs, cloud y modernización."
+    >
+    <meta property="og:type" content="profile">
+    <meta property="og:image" content="assets/images/guillmar-ortiz.jpeg">
+    <link rel="canonical" href="https://guillmar-cv.askenaz.dev/">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/app.js"></script>
+    <script type="application/ld+json" id="person-schema">{}</script>
+  </head>
+  <body>
+    <header class="site-controls" aria-label="Controles del CV">
+      <a class="brand-mark" href="./" aria-label="Guillmar Ortiz CV">GO</a>
+      <nav class="language-switch" aria-label="Idioma">
+        <button class="control-button" type="button" data-lang="es" aria-pressed="true">ES</button>
+        <button class="control-button" type="button" data-lang="en" aria-pressed="false">EN</button>
+      </nav>
+      <div class="control-actions">
+        <a class="control-link" href="data/cv.json" target="_blank" rel="noreferrer" data-i18n="viewJson">Ver JSON</a>
+        <button class="control-link" type="button" data-action="print" data-i18n="print">Imprimir</button>
+      </div>
+    </header>
+
+    <main class="site-main">
+      <article class="resume-document" id="resume" aria-live="polite">
+        <aside class="resume-sidebar">
+          <div class="portrait-frame">
+            <img id="profile-image" alt="Guillmar Ortiz" width="184" height="184">
+          </div>
+          <section class="sidebar-section" id="about-section"></section>
+          <section class="sidebar-section" id="skills-section"></section>
+          <section class="sidebar-section" id="links-section"></section>
+          <section class="sidebar-section" id="languages-section"></section>
+          <section class="sidebar-section" id="hobbies-section"></section>
+          <section class="sidebar-section" id="courses-section"></section>
+          <section class="sidebar-section" id="personal-section"></section>
+        </aside>
+
+        <div class="resume-main">
+          <header class="resume-hero">
+            <div class="name-block">
+              <p class="name-first" id="given-name">Guillmar</p>
+              <h1 id="family-name">Ortiz</h1>
+              <p class="role-line" id="role-line"></p>
+              <p class="headline-line" id="headline-line"></p>
+            </div>
+            <address class="contact-panel" id="contact-panel"></address>
+          </header>
+
+          <section class="main-section" id="experience-section"></section>
+          <section class="main-section" id="portfolio-section"></section>
+          <section class="main-section" id="education-section"></section>
+          <section class="main-section downloads-section" id="downloads-section"></section>
+        </div>
+      </article>
+    </main>
+
+    <footer class="site-footer">
+      <span id="footer-domain">guillmar-cv.askenaz.dev</span>
+      <span>GitHub Pages ready</span>
+    </footer>
+
+    <noscript>
+      <p class="noscript-message">Activa JavaScript para renderizar el CV desde data/cv.json.</p>
+    </noscript>
+  </body>
+</html>

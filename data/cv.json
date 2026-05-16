@@ -1,0 +1,663 @@
+{
+  "schemaVersion": "1.0.0",
+  "updatedAt": "2026-05-16",
+  "site": {
+    "defaultLanguage": "es",
+    "domain": "guillmar-cv.askenaz.dev",
+    "repository": "https://github.com/askenaz/Guillmar-Ortiz-Resume",
+    "availableLanguages": [
+      {
+        "code": "es",
+        "label": "Español"
+      },
+      {
+        "code": "en",
+        "label": "English"
+      }
+    ]
+  },
+  "person": {
+    "givenName": "Guillmar",
+    "familyName": "Ortiz",
+    "displayName": "Guillmar Ortiz",
+    "profileImage": "assets/images/guillmar-ortiz.jpeg",
+    "email": "guillmar.ortiz@gmail.com",
+    "phone": "+56 9 8439 0551",
+    "linkedin": {
+      "label": "linkedin.com/in/guillmarortiz",
+      "url": "https://www.linkedin.com/in/guillmarortiz"
+    },
+    "location": {
+      "city": "Santiago",
+      "country": "Chile"
+    }
+  },
+  "downloads": [
+    {
+      "id": "cv-es-pdf",
+      "language": "es",
+      "label": "CV PDF",
+      "format": "pdf",
+      "path": "documents/pdf/Guillmar Ortiz - CV 2026 ES.pdf"
+    },
+    {
+      "id": "cv-en-pdf",
+      "language": "en",
+      "label": "Resume PDF",
+      "format": "pdf",
+      "path": "documents/pdf/Guillmar Ortiz - CV 2026 EN.pdf"
+    },
+    {
+      "id": "cv-es-docx",
+      "language": "es",
+      "label": "CV Word",
+      "format": "docx",
+      "path": "documents/docx/Guillmar Ortiz - CV 2026 ES.docx"
+    },
+    {
+      "id": "cv-en-docx",
+      "language": "en",
+      "label": "Resume Word",
+      "format": "docx",
+      "path": "documents/docx/Guillmar Ortiz - CV 2026 EN.docx"
+    },
+    {
+      "id": "cover-es-pdf",
+      "language": "es",
+      "label": "Carta PDF",
+      "format": "pdf",
+      "path": "documents/pdf/Cover Letter Guillmar Ortiz - ES.pdf"
+    },
+    {
+      "id": "cover-en-pdf",
+      "language": "en",
+      "label": "Cover letter PDF",
+      "format": "pdf",
+      "path": "documents/pdf/Cover Letter Guillmar Ortiz - EN.pdf"
+    }
+  ],
+  "locales": {
+    "es": {
+      "htmlLang": "es",
+      "labels": {
+        "about": "Sobre mí",
+        "skills": "Habilidades",
+        "links": "Enlaces",
+        "languages": "Idiomas",
+        "hobbies": "Aficiones",
+        "courses": "Cursos",
+        "personalDetails": "Datos personales",
+        "experience": "Experiencia laboral",
+        "education": "Educación",
+        "portfolio": "Iniciativas destacadas",
+        "contact": "Contacto",
+        "downloads": "Descargas",
+        "print": "Imprimir",
+        "viewJson": "Ver JSON",
+        "downloadCv": "Descargar CV",
+        "remote": "Abierto a roles 100% remotos"
+      },
+      "role": "Arquitecto de Inteligencia Artificial Generativa | Arquitecto de Software",
+      "headline": "Arquitectura empresarial, estrategia de plataformas de IA, RAG, integración con LLMs, cloud y modernización",
+      "availability": "Residenciado en Chile | Abierto a roles 100% remotos, Santiago, Chile",
+      "summary": "Arquitecto de IA Generativa, Arquitecto de Software y Arquitecto Empresarial con más de 15 años de experiencia liderando modernización tecnológica, arquitectura de soluciones y definición de capacidades enterprise en retail, banca, seguros, telecomunicaciones y manufactura. Especializado en estrategia de plataformas de IA, integración de LLMs, RAG, arquitecturas agénticas, gobierno de IA, arquitectura cloud/híbrida y habilitación de capacidades compartidas a escala. Combino visión estratégica, liderazgo técnico y ejecución hands-on para convertir iniciativas tecnológicas en capacidades sostenibles de negocio.",
+      "skills": [
+        {
+          "name": "Arquitectura de IA Generativa",
+          "level": 100
+        },
+        {
+          "name": "Estrategia de Plataformas de IA",
+          "level": 100
+        },
+        {
+          "name": "Estrategia API",
+          "level": 80
+        },
+        {
+          "name": "RAG",
+          "level": 100
+        },
+        {
+          "name": "Integración con LLMs",
+          "level": 100
+        },
+        {
+          "name": "Spec Driven Development (SDD)",
+          "level": 100
+        },
+        {
+          "name": "Arquitecturas agénticas",
+          "level": 80
+        },
+        {
+          "name": "Gobierno de IA",
+          "level": 80
+        },
+        {
+          "name": "Arquitectura Empresarial",
+          "level": 90
+        },
+        {
+          "name": "Arquitectura de Software",
+          "level": 95
+        },
+        {
+          "name": "Arquitectura de Soluciones",
+          "level": 90
+        },
+        {
+          "name": "Arquitectura Cloud/Híbrida",
+          "level": 85
+        },
+        {
+          "name": "Kubernetes / OpenShift",
+          "level": 80
+        },
+        {
+          "name": "Azure / GCP / AWS",
+          "level": 85
+        },
+        {
+          "name": "Microservicios",
+          "level": 90
+        },
+        {
+          "name": "CI/CD",
+          "level": 85
+        },
+        {
+          "name": "Gobierno de Arquitectura",
+          "level": 90
+        },
+        {
+          "name": "Liderazgo Técnico",
+          "level": 95
+        },
+        {
+          "name": "Modernización de Apps Empresariales",
+          "level": 90
+        }
+      ],
+      "spokenLanguages": [
+        "Español",
+        "Inglés"
+      ],
+      "hobbies": [
+        "Entrenamiento de fuerza",
+        "Senderismo"
+      ],
+      "courses": [
+        {
+          "name": "Microsoft Certified: Azure AI Engineer Associate",
+          "institution": "Microsoft",
+          "period": "Ene. 2024 - Actualidad"
+        },
+        {
+          "name": "Machine Learning Specialization",
+          "institution": "Stanford University & DeepLearning.AI",
+          "period": "Ene. 2024 - Actualidad"
+        },
+        {
+          "name": "Software Development",
+          "institution": "ZTE Corporation",
+          "period": "Ene. 2015 - Dic. 2015"
+        },
+        {
+          "name": "Application Development",
+          "institution": "IBM",
+          "period": "Ene. 2009 - Dic. 2009"
+        },
+        {
+          "name": "Programming Fundamentals",
+          "institution": "IBM",
+          "period": "Ene. 2009 - Dic. 2009"
+        },
+        {
+          "name": "IT and Networking Fundamental",
+          "institution": "IBM",
+          "period": "Ene. 2008 - Dic. 2008"
+        }
+      ],
+      "personalDetails": [
+        {
+          "label": "Fecha de nacimiento",
+          "value": "17/10/1987"
+        },
+        {
+          "label": "Nacionalidad",
+          "value": "Venezolano"
+        }
+      ],
+      "experience": [
+        {
+          "company": "Falabella",
+          "location": "Chile, Santiago RM",
+          "period": "Ago. 2025 - Actualidad",
+          "role": "GenAI Architecture Lead",
+          "highlights": [
+            "Lidero iniciativas de arquitectura para la adopción enterprise de inteligencia artificial generativa, impulsando capacidades compartidas de IA dentro de uno de los ecosistemas de retail más grandes de Latinoamérica.",
+            "Defino lineamientos, patrones y stack tecnológico para soluciones basadas en LLMs, RAG y servicios reutilizables de IA, orientados a escalabilidad, seguridad y gobernanza.",
+            "Diseño la arquitectura de una plataforma corporativa basada en agentes, concebida como un AI Gateway para el consumo de LLMs, agentes y servicios compatibles con MCP, habilitando capacidades compartidas de IA y fortaleciendo el gobierno, control y reutilización de activos a escala organizacional.",
+            "Contribuyo a la consolidación de pilares enterprise de IA en gobierno, seguridad, tecnología y habilitación organizacional, acelerando la transición desde iniciativas aisladas hacia una visión de plataforma.",
+            "Contribuyo con iniciativas estratégicas en experiencia de cliente, comercio digital y aceleración del ciclo de desarrollo de software mediante capacidades de IA Generativa."
+          ]
+        },
+        {
+          "company": "Falabella",
+          "location": "Chile, Santiago RM",
+          "period": "Ene. 2023 - Jul. 2025",
+          "role": "Arquitecto de Software Corporativo",
+          "highlights": [
+            "Impulsé iniciativas de arquitectura corporativa orientadas a elevar la calidad y consistencia en las arquitecturas y habilitar a los equipos de desarrollo con mejores prácticas y aceleradores internos.",
+            "Lideré la definición de estándares corporativos para mejorar la calidad de software mediante la estandarización de pipelines y prácticas de ingeniería.",
+            "Diseñé e implementé Repository Analyzer, una solución interna basada en Python y FastAPI para extraer insights desde repositorios y apoyar la generación de documentación técnica, fortaleciendo el gobierno de los desarrollos.",
+            "Lideré e implementé una propuesta de generación de documentación técnica impulsada por IA Generativa, capaz de producir documentación y diagramas de aplicación a partir del código fuente.",
+            "Lideré y participé activamente en comunidades de adopción de IA Generativa, promoviendo intercambio de conocimiento técnico y mejores prácticas.",
+            "Lideré el proceso de selección de herramientas de programación impulsadas por inteligencia artificial generativa para los desarrolladores de la compañía."
+          ]
+        },
+        {
+          "company": "Grupo Security",
+          "location": "Chile, Santiago RM",
+          "period": "Jul. 2021 - Dic. 2022",
+          "role": "Arquitecto Corporativo (Arquitectura de Software + Arquitectura Empresarial)",
+          "highlights": [
+            "Me desempeñé como referente transversal de arquitectura para múltiples compañías del holding Grupo Security, combinando perspectivas de arquitectura de software y arquitectura empresarial.",
+            "Lideré la definición de lineamientos, blueprints, patrones de referencia y criterios de decisión para soluciones enterprise escalables.",
+            "Participé en la definición de la arquitectura híbrida para integrar Azure con datacenters corporativos mediante Azure ExpressRoute y en la adopción de Kubernetes/OpenShift para modernización de infraestructura.",
+            "Contribuí al fortalecimiento del gobierno de arquitectura mediante LeanIX, alineado al framework BIAN, impulsando la estrategia API, arquetipos de microservicios, IBM API Connect y evolución del modelo de madurez."
+          ]
+        },
+        {
+          "company": "Nectia",
+          "location": "Chile, Santiago RM",
+          "period": "Oct. 2019 - Jun. 2021",
+          "role": "Arquitecto de Software",
+          "highlights": [
+            "Actué como arquitecto de software y principal referente técnico en proyectos de alta criticidad para clientes del sector financiero y asegurador.",
+            "Lideré técnicamente la implementación de la Plataforma de Devolución de Primas para BNP Paribas Cardif, participando en el diseño, ejecución end-to-end y salida exitosa a producción.",
+            "Fui arquitecto y referente técnico en la modernización del Sitio Privado de Factoring Security, impulsando una arquitectura basada en microservicios y microfrontends.",
+            "Definí lineamientos de arquitectura, patrones de implementación, prácticas de despliegue cloud, CI/CD y dirección técnica para equipos de desarrollo."
+          ]
+        },
+        {
+          "company": "Nectia",
+          "location": "Chile, Santiago RM",
+          "period": "Jun. 2018 - Sep. 2019",
+          "role": "Tech Lead",
+          "highlights": [
+            "Lideré la coordinación técnica de iniciativas de aplicaciones empresariales para clientes del sector bancario y seguros, actuando como puente entre la ejecución hands-on y responsabilidades emergentes de arquitectura."
+          ]
+        },
+        {
+          "company": "Nectia",
+          "location": "Chile, Santiago RM",
+          "period": "Nov. 2016 - May. 2018",
+          "role": "Full Stack Developer",
+          "highlights": [
+            "Desarrollé, evolucioné y mantuve aplicaciones web empresariales, aplicando prácticas como GitFlow, SonarQube, ESLint y metodologías ágiles para mejorar calidad de código y colaboración del equipo."
+          ]
+        },
+        {
+          "company": "Common Management Solutions (Madrid, España)",
+          "location": "Madrid (Remoto)",
+          "period": "Abr. 2016 - Nov. 2017",
+          "role": "Desarrollador Full Stack Senior (Freelance)",
+          "highlights": [
+            "Lideré el desarrollo de una solución para una entidad financiera, desde la arquitectura base, diseño de la capa de presentación, desarrollo de APIs REST e integración con servicios del ecosistema."
+          ]
+        },
+        {
+          "company": "SDT Panamá",
+          "location": "Panamá (Remoto)",
+          "period": "Nov. 2015 - Abr. 2016",
+          "role": "Desarrollador Full Stack (Freelance)",
+          "highlights": [
+            "Desarrollé un módulo para gestión de inventario y facturación para la plataforma ERP de la compañía."
+          ]
+        },
+        {
+          "company": "Venezolana de Telecomunicaciones C.A. (VTELCA)",
+          "location": "Venezuela, Falcón",
+          "period": "Ago. 2011 - Jul. 2016",
+          "role": "Desarrollador Web Senior y Administrador de Servicios",
+          "highlights": [
+            "Realicé mejoras de procesos relacionados con logística y manufactura, desarrollé módulos críticos del sistema de producción, administré servidores Linux y fui parte del equipo responsable de implantar el sistema MES tras capacitación especializada en Shenzhen, China."
+          ]
+        },
+        {
+          "company": "Fundación de Ciencia y Tecnología del Estado Falcón",
+          "location": "Venezuela, Falcón",
+          "period": "Oct. 2010 - Jun. 2011",
+          "role": "Web Developer",
+          "highlights": [
+            "Desarrollé aplicaciones web para automatización de procesos administrativos y brindé soporte técnico institucional."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidad Internacional de La Rioja (España)",
+          "location": "La Rioja",
+          "year": "2024",
+          "degree": "Máster Universitario en Inteligencia Artificial"
+        },
+        {
+          "institution": "Universidad Nacional Experimental Politécnica de la Fuerza Armada (Venezuela)",
+          "location": "",
+          "year": "2009",
+          "degree": "Ingeniería de Sistemas"
+        }
+      ],
+      "portfolioHighlights": [
+        {
+          "name": "AI Gateway y plataforma agéntica corporativa",
+          "type": "Arquitectura de plataforma",
+          "summary": "Diseño de una capacidad corporativa para consumir LLMs, agentes y servicios compatibles con MCP con foco en gobierno, control, reutilización y escalabilidad."
+        },
+        {
+          "name": "Repository Analyzer",
+          "type": "Acelerador interno",
+          "summary": "Solución basada en Python y FastAPI para extraer insights desde repositorios, apoyar documentación técnica y fortalecer la gobernanza del desarrollo."
+        },
+        {
+          "name": "Documentación técnica con IA Generativa",
+          "type": "Automatización de ingeniería",
+          "summary": "Propuesta e implementación para generar documentación y diagramas desde código fuente, mejorando la actualización y calidad de la documentación de soluciones."
+        }
+      ]
+    },
+    "en": {
+      "htmlLang": "en",
+      "labels": {
+        "about": "About me",
+        "skills": "Skills",
+        "links": "Links",
+        "languages": "Languages",
+        "hobbies": "Hobbies",
+        "courses": "Courses",
+        "personalDetails": "Personal details",
+        "experience": "Work experience",
+        "education": "Education",
+        "portfolio": "Selected initiatives",
+        "contact": "Contact",
+        "downloads": "Downloads",
+        "print": "Print",
+        "viewJson": "View JSON",
+        "downloadCv": "Download resume",
+        "remote": "Open to 100% remote roles"
+      },
+      "role": "Generative Artificial Intelligence Architect | Software Architect",
+      "headline": "Enterprise architecture, AI platform strategy, RAG, integration with LLMs, cloud and modernization",
+      "availability": "Residing in Chile | Open to 100% remote roles, Santiago, Chile",
+      "summary": "Generative AI Architect, Software Architect, and Enterprise Architect with over 15 years of experience leading technological modernization, solution architecture, and defining enterprise capabilities in retail, banking, insurance, telecommunications, and manufacturing. Specialized in AI platform strategy, LLMs integration, RAG, agentic architectures, AI governance, cloud/hybrid architecture, and enabling shared capabilities at scale. I combine strategic vision, technical leadership, and hands-on execution to transform technological initiatives into sustainable business capabilities.",
+      "skills": [
+        {
+          "name": "Generative AI Architecture",
+          "level": 100
+        },
+        {
+          "name": "AI Platform Strategy",
+          "level": 100
+        },
+        {
+          "name": "API Strategy",
+          "level": 80
+        },
+        {
+          "name": "RAG",
+          "level": 100
+        },
+        {
+          "name": "Integration with LLMs",
+          "level": 100
+        },
+        {
+          "name": "Spec Driven Development (SDD)",
+          "level": 100
+        },
+        {
+          "name": "Agentic Architectures",
+          "level": 80
+        },
+        {
+          "name": "AI Governance",
+          "level": 80
+        },
+        {
+          "name": "Enterprise Architecture",
+          "level": 90
+        },
+        {
+          "name": "Software Architecture",
+          "level": 95
+        },
+        {
+          "name": "Solution Architecture",
+          "level": 90
+        },
+        {
+          "name": "Cloud/Hybrid Architecture",
+          "level": 85
+        },
+        {
+          "name": "Kubernetes / OpenShift",
+          "level": 80
+        },
+        {
+          "name": "Azure / GCP / AWS",
+          "level": 85
+        },
+        {
+          "name": "Microservices",
+          "level": 90
+        },
+        {
+          "name": "CI/CD",
+          "level": 85
+        },
+        {
+          "name": "Architecture Governance",
+          "level": 90
+        },
+        {
+          "name": "Technical Leadership",
+          "level": 95
+        },
+        {
+          "name": "Enterprise App Modernization",
+          "level": 90
+        }
+      ],
+      "spokenLanguages": [
+        "Spanish",
+        "English"
+      ],
+      "hobbies": [
+        "Strength training",
+        "Hiking"
+      ],
+      "courses": [
+        {
+          "name": "Microsoft Certified: Azure AI Engineer Associate",
+          "institution": "Microsoft",
+          "period": "Jan 2024 - Present"
+        },
+        {
+          "name": "Machine Learning Specialization",
+          "institution": "Stanford University & DeepLearning.AI",
+          "period": "Jan 2024 - Present"
+        },
+        {
+          "name": "Software Development",
+          "institution": "ZTE Corporation",
+          "period": "Jan 2015 - Dec 2015"
+        },
+        {
+          "name": "Application Development",
+          "institution": "IBM",
+          "period": "Jan 2009 - Dec 2009"
+        },
+        {
+          "name": "Programming Fundamentals",
+          "institution": "IBM",
+          "period": "Jan 2009 - Dec 2009"
+        },
+        {
+          "name": "IT and Networking Fundamental",
+          "institution": "IBM",
+          "period": "Jan 2008 - Dec 2008"
+        }
+      ],
+      "personalDetails": [
+        {
+          "label": "Date of birth",
+          "value": "17/10/1987"
+        },
+        {
+          "label": "Nationality",
+          "value": "Venezuelan"
+        }
+      ],
+      "experience": [
+        {
+          "company": "Falabella",
+          "location": "Chile, Santiago RM",
+          "period": "Aug 2025 - Present",
+          "role": "GenAI Architecture Lead",
+          "highlights": [
+            "I lead architecture initiatives for the enterprise adoption of generative artificial intelligence, driving shared AI capabilities within one of the largest retail ecosystems in Latin America.",
+            "I define guidelines, patterns, and technology stack for solutions based on LLMs, RAG, and reusable AI services, focused on scalability, security, and governance.",
+            "I design the architecture of a corporate agentic platform, conceived as an AI Gateway for the consumption of LLMs, agents, and MCP-compatible services, enabling shared AI capabilities and strengthening governance, control, and reuse of AI assets at organizational scale.",
+            "I contribute to the consolidation of enterprise AI pillars in governance, security, technology, and organizational enablement, accelerating the transition from isolated initiatives to a platform vision.",
+            "I contribute to strategic initiatives in customer experience, digital commerce, and software development cycle acceleration through Generative AI capabilities."
+          ]
+        },
+        {
+          "company": "Falabella",
+          "location": "Chile, Santiago RM",
+          "period": "Jan 2023 - July 2025",
+          "role": "Corporate Software Architect",
+          "highlights": [
+            "I drove corporate architecture initiatives aimed at elevating quality and consistency in architectures and enabling development teams with best practices and internal accelerators.",
+            "I led the definition of corporate standards to improve software quality through pipeline standardization and engineering practices.",
+            "I designed and implemented Repository Analyzer, an internal solution based on Python and FastAPI to extract insights from repositories and support technical documentation generation, strengthening development governance.",
+            "I led and implemented a Generative AI-driven technical documentation proposal capable of producing documentation and application diagrams from source code.",
+            "I led and actively participated in Generative AI adoption communities, promoting technical knowledge exchange and best practices.",
+            "I led the selection process of generative AI programming tools for the company's developers."
+          ]
+        },
+        {
+          "company": "Grupo Security",
+          "location": "Chile, Santiago RM",
+          "period": "Jul 2021 - Dec 2022",
+          "role": "Corporate Architect (Software Architecture + Enterprise Architecture)",
+          "highlights": [
+            "I served as a transversal architecture reference for multiple companies within the Grupo Security holding, combining software architecture and enterprise architecture perspectives.",
+            "I led the definition of guidelines, blueprints, reference patterns, and decision criteria for scalable enterprise solutions.",
+            "I participated in defining the hybrid architecture for integrating Azure with corporate datacenters via Azure ExpressRoute and adopting Kubernetes/OpenShift platforms for infrastructure modernization.",
+            "I contributed to strengthening architecture governance using LeanIX, aligned with the BIAN framework, driving API strategy, microservices archetypes, IBM API Connect adoption, and maturity model evolution."
+          ]
+        },
+        {
+          "company": "Nectia",
+          "location": "Chile, Santiago RM",
+          "period": "Oct 2019 - Jun 2021",
+          "role": "Software Architect",
+          "highlights": [
+            "I acted as a software architect and main technical reference in high-criticality projects for clients in the financial and insurance sectors.",
+            "I technically led the implementation of the Premium Refund Platform for BNP Paribas Cardif, participating in solution design, end-to-end execution, and successful production release.",
+            "I was an architect and technical reference in the modernization of the Security Factoring Private Site, driving a microservices and microfrontends based architecture.",
+            "I defined architecture guidelines, implementation patterns, cloud deployment practices, CI/CD, and technical direction for development teams."
+          ]
+        },
+        {
+          "company": "Nectia",
+          "location": "Chile, Santiago RM",
+          "period": "Jun 2018 - Sep 2019",
+          "role": "Tech Lead",
+          "highlights": [
+            "I led the technical coordination of enterprise application initiatives for banking and insurance clients, acting as a bridge between hands-on execution and emerging architecture responsibilities."
+          ]
+        },
+        {
+          "company": "Nectia",
+          "location": "Chile, Santiago RM",
+          "period": "Nov 2016 - May 2018",
+          "role": "Full Stack Developer",
+          "highlights": [
+            "I developed, evolved, and maintained enterprise web applications, applying practices such as GitFlow, SonarQube, ESLint, and agile methodologies to improve code quality and team collaboration."
+          ]
+        },
+        {
+          "company": "Common Management Solutions (Madrid, Spain)",
+          "location": "Madrid (Remote)",
+          "period": "Apr 2016 - Nov 2017",
+          "role": "Senior Full Stack Developer (Freelance)",
+          "highlights": [
+            "I led the development of a solution for a financial entity, from base application architecture definition, presentation layer design, REST API development, and integration with ecosystem services."
+          ]
+        },
+        {
+          "company": "SDT Panama",
+          "location": "Panama (Remote)",
+          "period": "Nov 2015 - Apr 2016",
+          "role": "Full Stack Developer (Freelance)",
+          "highlights": [
+            "I developed an inventory and billing management module for the company's ERP platform."
+          ]
+        },
+        {
+          "company": "Venezolana de Telecomunicaciones C.A. (VTELCA)",
+          "location": "Venezuela, Falcón",
+          "period": "Aug 2011 - July 2016",
+          "role": "Senior Web Developer and Service Administrator",
+          "highlights": [
+            "I improved logistics and manufacturing processes, developed critical production system modules, administered Linux servers, and was part of the team responsible for implementing the MES after specialized training in Shenzhen, China."
+          ]
+        },
+        {
+          "company": "Fundación de Ciencia y Tecnología del Estado Falcón",
+          "location": "Venezuela, Falcón",
+          "period": "Oct 2010 - Jun 2011",
+          "role": "Web Developer",
+          "highlights": [
+            "I developed web applications for administrative process automation and provided institutional technical support."
+          ]
+        }
+      ],
+      "education": [
+        {
+          "institution": "Universidad Internacional de La Rioja (Spain)",
+          "location": "La Rioja",
+          "year": "2024",
+          "degree": "Master's Degree in Artificial Intelligence"
+        },
+        {
+          "institution": "Universidad Nacional Experimental Politécnica de la Fuerza Armada (Venezuela)",
+          "location": "",
+          "year": "2009",
+          "degree": "Systems Engineering"
+        }
+      ],
+      "portfolioHighlights": [
+        {
+          "name": "AI Gateway and corporate agentic platform",
+          "type": "Platform architecture",
+          "summary": "Architecture of a corporate capability for consuming LLMs, agents, and MCP-compatible services with focus on governance, control, reuse, and scalability."
+        },
+        {
+          "name": "Repository Analyzer",
+          "type": "Internal accelerator",
+          "summary": "Python and FastAPI solution to extract repository insights, support technical documentation, and strengthen development governance."
+        },
+        {
+          "name": "Generative AI technical documentation",
+          "type": "Engineering automation",
+          "summary": "Proposal and implementation for generating documentation and diagrams from source code, improving documentation quality and freshness."
+        }
+      ]
+    }
+  }
+}
