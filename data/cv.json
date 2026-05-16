@@ -93,7 +93,6 @@
         "contact": "Contacto",
         "downloads": "Descargas",
         "print": "Imprimir",
-        "viewJson": "Ver JSON",
         "downloadCv": "Descargar CV",
         "remote": "Abierto a roles 100% remotos"
       },
@@ -384,7 +383,6 @@
         "contact": "Contact",
         "downloads": "Downloads",
         "print": "Print",
-        "viewJson": "View JSON",
         "downloadCv": "Download resume",
         "remote": "Open to 100% remote roles"
       },

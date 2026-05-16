@@ -25,6 +25,7 @@
     portfolio: $("#portfolio-section"),
     education: $("#education-section"),
     downloads: $("#downloads-section"),
+    printLink: $("#print-link"),
     footerDomain: $("#footer-domain")
   };
 
@@ -233,6 +234,12 @@
     nodes.downloads.replaceChildren(sectionTitle(locale.labels.downloads), list);
   }
 
+  function getCurrentCvPdf(data) {
+    return data.downloads.find((download) => {
+      return download.language === state.lang && download.format === "pdf" && download.id.includes("cv");
+    });
+  }
+
   function renderControls(locale) {
     document.querySelectorAll("[data-lang]").forEach((button) => {
       const active = button.dataset.lang === state.lang;
@@ -245,6 +252,12 @@
         node.textContent = locale.labels[key];
       }
     });
+
+    const cvPdf = getCurrentCvPdf(state.data);
+    if (cvPdf) {
+      nodes.printLink.href = cvPdf.path;
+      nodes.printLink.setAttribute("aria-label", `${locale.labels.print}: ${cvPdf.label}`);
+    }
   }
 
   function renderSchema(locale, person) {
@@ -315,8 +328,6 @@
   document.querySelectorAll("[data-lang]").forEach((button) => {
     button.addEventListener("click", () => setLanguage(button.dataset.lang));
   });
-
-  $("[data-action='print']").addEventListener("click", () => window.print());
 
   boot();
 })();
