@@ -153,6 +153,13 @@
   }
 
   function renderPersonal(locale) {
+    if (!locale.personalDetails?.length) {
+      nodes.personal.hidden = true;
+      nodes.personal.replaceChildren();
+      return;
+    }
+
+    nodes.personal.hidden = false;
     const list = el("ul", "plain-list");
     locale.personalDetails.forEach((detail) => {
       const item = el("li");
