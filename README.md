@@ -9,8 +9,8 @@ Sitio estático bilingüe para publicar el CV de Guillmar Ortiz en GitHub Pages.
 - `assets/js/app.js`: render del CV desde JSON.
 - `assets/images/guillmar-ortiz.jpeg`: foto de perfil extraída del Word fuente.
 - `data/cv.json`: información importable en español e inglés.
-- `documents/docx`: documentos Word originales.
-- `documents/pdf`: CV y cartas de presentación en PDF.
+- `documents/docx`: documentos Word editables, incluidos los cover letters genéricos.
+- `documents/pdf`: CV ATS y cover letters genéricos listos para enviar.
 - `CNAME`: dominio custom para GitHub Pages.
 - `.nojekyll`: evita procesamiento Jekyll en GitHub Pages.
 

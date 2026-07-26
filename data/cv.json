@@ -50,16 +50,30 @@
     {
       "id": "cover-es-pdf",
       "language": "es",
-      "label": "Carta PDF",
+      "label": "Carta genérica",
       "format": "pdf",
       "path": "documents/pdf/Cover Letter Guillmar Ortiz - ES.pdf"
     },
     {
+      "id": "cover-es-docx",
+      "language": "es",
+      "label": "Carta genérica editable",
+      "format": "docx",
+      "path": "documents/docx/Cover Letter Guillmar Ortiz - ES.docx"
+    },
+    {
       "id": "cover-en-pdf",
       "language": "en",
-      "label": "Cover letter PDF",
+      "label": "Generic cover letter",
       "format": "pdf",
       "path": "documents/pdf/Cover Letter Guillmar Ortiz - EN.pdf"
+    },
+    {
+      "id": "cover-en-docx",
+      "language": "en",
+      "label": "Editable cover letter",
+      "format": "docx",
+      "path": "documents/docx/Cover Letter Guillmar Ortiz - EN.docx"
     }
   ],
   "locales": {
