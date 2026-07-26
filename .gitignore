@@ -2,6 +2,7 @@ node_modules/
 .DS_Store
 Thumbs.db
 _tmp_extract/
+tmp/
 dist/
 .env
 .env.*
