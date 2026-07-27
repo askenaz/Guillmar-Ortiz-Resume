@@ -36,16 +36,30 @@
     {
       "id": "cv-es-pdf",
       "language": "es",
-      "label": "CV ATS",
+      "label": "CV",
       "format": "pdf",
       "path": "documents/pdf/Guillmar Ortiz - CV 2026 ES.pdf"
     },
     {
+      "id": "cv-es-docx",
+      "language": "es",
+      "label": "CV editable",
+      "format": "docx",
+      "path": "documents/docx/Guillmar Ortiz - CV 2026 ES.docx"
+    },
+    {
       "id": "cv-en-pdf",
       "language": "en",
-      "label": "ATS resume",
+      "label": "Resume",
       "format": "pdf",
       "path": "documents/pdf/Guillmar Ortiz - CV 2026 EN.pdf"
+    },
+    {
+      "id": "cv-en-docx",
+      "language": "en",
+      "label": "Editable resume",
+      "format": "docx",
+      "path": "documents/docx/Guillmar Ortiz - CV 2026 EN.docx"
     },
     {
       "id": "cover-es-pdf",
